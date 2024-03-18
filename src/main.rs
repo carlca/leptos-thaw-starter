@@ -14,5 +14,6 @@ pub fn App() -> impl IntoView {
       <Button variant=ButtonVariant::Text>"Text"</Button>
       <Button variant=ButtonVariant::Link>"Link"</Button>
     </Space>
+
   }
 }
