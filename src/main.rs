@@ -7,5 +7,12 @@ fn main() {
 
 #[component]
 pub fn App() -> impl IntoView {
-  view! { <Button variant=ButtonVariant::Primary>"Primary"</Button> }
+  view! {
+    <Space>
+      <Button variant=ButtonVariant::Primary>"Primary"</Button>
+      <Button variant=ButtonVariant::Outlined>"Outlined"</Button>
+      <Button variant=ButtonVariant::Text>"Text"</Button>
+      <Button variant=ButtonVariant::Link>"Link"</Button>
+    </Space>
+  }
 }
